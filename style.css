@@ -81,7 +81,6 @@ width: 14.9%
 }
 </style>
 
-<b:if cond='data:blog.pageType == &quot;item&quot;'>
 
 <style>
 #albumart,#download-td,table#playlist th{text-align:center}.mejs__audio,.mejs__container,.mejs__container-keyboard-inactive{width:100%!important}h1.post-title{display:none}.al-audioInfo span,.album-title span{display:block}.album-title{overflow:hidden;background:url(http://image.flaticon.com/icons/svg/254/254062.svg) left no-repeat;background-size:35px 35px;padding:0 0 0 40px}table#playlist th,table#playlist tr:nth-child(even){background-color:#eee}.album-title-span{font-size:20px;line-height:24px;font-weight:700}#albumpanel{width:auto;margin:15px 0;padding:10px 0;background:linear-gradient(90deg,#faf0cd,#fab397)}#albumart img{max-width:260px}#albuminfo{text-align:left;max-height:250px}#albuminfo ul{list-style:none;padding:10px 0}#albuminfo li{list-style:none;color:#fff;padding:0;margin:0;line-height:20px}#albuminfo li span{color:#777;font-weight:700;padding-right:10px}table#playlist{width:100%;border:none;border-collapse:collapse}table#playlist th{color:#555454!important;font-size:14px;padding:15px;border:none;cell-spacing:none}table#playlist tr{border:none;border:1px solid #e7e7e7}table#playlist td{border:1px solid #e7e7e7;padding:10px 5px}table#playlist tr:nth-child(odd){background-color:#fff}#download-td{border:1px solid #e7e7e7}#download-td a{color:#999;font-size:20px}#download-td a:hover{color:#cf2a26}.al-audioInfo{margin:0 0 .1875rem 10px;line-height:16px;font-weight:500;font-size:1.5rem;overflow:hidden;padding-left:30px;background-image:url(&quot;http://image.flaticon.com/icons/svg/174/174254.svg&quot;);background-repeat:no-repeat;background-size:28px 28px;background-position:left;border-right:1px solid #e7e7e7}.al-audioName{font-weight:500;font-size:16px;color:#666}.al-audioAuthor{font-size:12px;line-height:14px;color:#777}
@@ -114,9 +113,7 @@ form.subscribe-form{clear:both;display:block;margin:0;width:auto;overflow:hidden
 #subscribe-css p.subscribe-note{margin:20px;text-align:center;font-size:130%;color:#999;font-weight:400;line-height:1em}
 #subscribe-css p.subscribe-note span {font-weight:700;}
 </style>
-    </b:if>
-<b:if cond='data:blog.pageType != &quot;item&quot;'>
-<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+   
 <style type='text/css'>
 .blog-cent p{overflow:hidden;}
 
@@ -207,8 +204,7 @@ form.subscribe-form{clear:both;display:block;margin:0;width:auto;overflow:hidden
 }
 
 </style>
-</b:if>
-</b:if>
+
 
 <style>
 .sr-l-holder {background: #fff&#39;
